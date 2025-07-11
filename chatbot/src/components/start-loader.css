@@ -1,0 +1,26 @@
+.start-loader-main {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+    z-index: 100;
+}
+
+.start-loader-main div {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    gap: 20;
+}
+
+.start-loader-main div img {
+    height: 50px;
+    width: 50px;
+}

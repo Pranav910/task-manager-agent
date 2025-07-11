@@ -1,0 +1,22 @@
+.userchatmain {
+    color: white;
+    border-radius: 24px;
+    background-color: #303030;
+    max-width: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+.userchatsub {
+    text-align: left;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.userchatmain .userchatsub p {
+    text-align: right;
+}
+
+.userchatmain .userchatsub img {
+    margin-bottom: 10px;
+}

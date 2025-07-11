@@ -1,0 +1,96 @@
+.promptmain {
+    width: 100%;
+    height: 100%;
+}
+
+.promptsub {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #303030;
+    border-radius: 24px;
+    padding: 10px 0;
+}
+
+.promptinput {
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
+    padding: 0 24px;
+    outline: none;
+    color: #e6d9d9;
+    border: none;
+    font-size: 16px;
+    align-items: center;
+    resize: none;
+    font-family: 'Roboto';
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+.promptinput::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+
+
+.promptinput::-webkit-scrollbar-thumb {
+    background-color: #504f4f;
+    cursor:default;
+    border-radius: 50px;
+}
+
+.promptinput::-webkit-scrollbar-corner {
+    scrollbar-arrow-color: red;
+}
+
+.up-arrow-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.up-arrow {
+    background-color: rgb(242, 234, 234);
+    border-radius: 100px;
+    padding: 7px;
+    place-self: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.up-arrow:hover {
+    background-color: rgb(226, 218, 218);
+}
+
+.promptsub input{
+    display: none;
+}
+
+.promptsub label {
+    display: flex;
+}
+
+.web-search-btn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    background-color: transparent;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5;
+    cursor: pointer;
+}
+
+.web-search-btn p{
+    padding-top: 1px;
+}
