@@ -1,4 +1,4 @@
-# 🤖Full Stack Web Application
+# 🤖Full Stack AI Application
 
 This project is a full-stack AI agent application built using:
 
